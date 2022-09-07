@@ -7,10 +7,10 @@
     }
     .firstsection-leftdiv{
         width:60%;
+        padding: 20px;
     }
     .firstsection-leftdiv h1{
         font-size: 25px;
-        padding: 20px;
     }
     .firstsection-rightdiv{
         width: 40%;
