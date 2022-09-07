@@ -102,7 +102,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     padding: 30px 0;
     
 }
@@ -124,4 +124,23 @@ span{
 /* ==== Third section ends here==== */ 
 
 /* ==== Footer section starts here==== */
+.footericons-container{
+    /* height: 100px; */
+    width: 200px;
+    /* border:var(--blackborder); */
+    text-align: center;
+}
+footer{
+    background-color:var(--main-color) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    color: var(--white-color);
+
+}
+.footericons{
+    font-size: 25px;
+    margin: 0 5px;
+}
 /* ==== Footer section ends here==== */ 
