@@ -102,9 +102,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     padding: 30px 0;
-    
+    background: var(--gray-color);
 }
 .thirdsection-leftdiv{
     background: var(--gray-color);

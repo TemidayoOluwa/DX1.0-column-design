@@ -1,0 +1,58 @@
+
+@media screen and (max-width:800px){
+    
+    /* ==== First section starts here==== */
+    .firstsection{
+        height: 520PX;
+    }
+    .firstsection-leftdiv{
+        width:60%;
+    }
+    .firstsection-leftdiv h1{
+        font-size: 25px;
+        padding: 20px;
+    }
+    .firstsection-rightdiv{
+        width: 40%;
+    }
+    .link-holder{
+        /* border: var(--blackborder); */
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .link-holder h4{
+        margin-bottom:10px ;
+    }
+    .line{
+        width: 200px;
+    }
+    /* ==== First section ends here==== */
+
+    /* ==== second section starts here==== */
+    .secondsection{
+        flex-direction: column;
+    }
+    .secondsection-leftdiv{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    /* ==== second section ends here==== */
+
+    /* ==== third section starts here==== */
+    .thirdsection{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .thirdsection-rightdiv{
+        margin-bottom: 30px;
+    }
+    /* ==== third section ends here==== */
+
+    
+/* ==== Footer section starts here==== */ 
+footer{
+    flex-direction: column;
+    text-align: center;
+}
+/* ==== Footer section ends here==== */ 
+}
